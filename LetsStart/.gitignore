@@ -1,0 +1,33 @@
+syntax: glob
+
+# generated files
+bin/
+gen/
+
+# Local configuration file (sdk path, etc)
+local.properties
+sign.properties
+*keystore
+
+# Windows thumbnail db
+Thumbs.db
+
+# OSX files
+.DS_Store
+
+# Android Studio
+*.apk
+*.iml
+.idea
+.gradle
+build
+.navigation
+captures
+app/release
+app/debug
+*/release
+*/debug
+version.properties
+
+#NDK
+.externalNativeBuild
